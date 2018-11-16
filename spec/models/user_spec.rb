@@ -10,6 +10,4 @@ RSpec.describe User, type: :model do
   it { is_expected.to allow_value("rafhabs@gmail.com").for(:email) }
 
 
-
-
 end
